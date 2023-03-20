@@ -6,7 +6,8 @@
 int main() {
 	Model m(2, 5e-6, 1e7);
 	m.countSignals();
-	m.plotSignals();
-	m.printParams();
+	//m.plotSignals();
+	m.modeling();
+	//m.printParams();
 	return 0;
 }
